@@ -99,6 +99,14 @@ b.	аутентификацию реализовать через вход по 
 Code on your laptop, database in container.
 
 1. Create the docker.env file
+
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+PGADMIN_DEFAULT_EMAIL=
+PGADMIN_DEFAULT_PASSWORD=
+
+and .env file
 POSTGRES_HOST=
 POSTGRES_PORT=
 POSTGRES_USER=
