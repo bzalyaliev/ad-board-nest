@@ -94,3 +94,22 @@ b.	аутентификацию реализовать через вход по 
 4.	При создании коммитов писать осмысленные названия.
 5.	Использовать инструмент тестового покрытия для отображения % покрытия исходного кода тестами.
 6.	Для проверки кода дополнительно подключить линтер на выбор.
+
+## How to run
+Code on your laptop, database in container.
+
+1. Create the docker.env file
+POSTGRES_HOST=
+POSTGRES_PORT=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+PORT=
+JWT_SECRET=
+JWT_EXPIRATION_TIME=
+
+2. Start container with database
+docker-compose up
+
+3. Run Nest application
+npm run start:dev
