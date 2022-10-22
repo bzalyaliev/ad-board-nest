@@ -100,13 +100,16 @@ Code on your laptop, database in container.
 
 1. Create the docker.env file
 
+```
 POSTGRES_USER=
 POSTGRES_PASSWORD=
 POSTGRES_DB=
 PGADMIN_DEFAULT_EMAIL=
 PGADMIN_DEFAULT_PASSWORD=
-
+```
 and .env file
+
+```
 POSTGRES_HOST=
 POSTGRES_PORT=
 POSTGRES_USER=
@@ -115,9 +118,13 @@ POSTGRES_DB=
 PORT=
 JWT_SECRET=
 JWT_EXPIRATION_TIME=
+```
 
 2. Start container with database
+```
 docker-compose up
-
+```
 3. Run Nest application
+```
 npm run start:dev
+```
